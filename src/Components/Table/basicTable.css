@@ -1,0 +1,144 @@
+.conventionalTable table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+ 
+
+  .conventionalTab table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+ 
+  
+  
+
+.conventionalTable th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+  background-color: #cecece;
+  color: rgb(70, 70, 71);
+  font-size: 13px;
+  height: 50px;
+  position: sticky;
+  top:138px;
+  z-index: 4;
+}
+
+
+/* .conventionalTab{
+  max-height: 80vh;
+  overflow-y: scroll;
+} */
+
+
+.conventionalTab th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+  color: rgb(70, 70, 71);
+  font-size: 13px;
+  background-color: #cecece;
+  height: 50px;
+  position: sticky;
+  top:0px;
+  z-index: 9;
+}
+
+.highlighted{
+  /* border: 2px dotted var(--clr-accent); */
+  box-shadow: 0px 5px 5px rgba(3, 86, 90 , 0.6);
+  background-color: rgba(3, 86, 90 , 0.8  ) ;
+  color:white
+  /* border: 2px inset rgba(68, 65, 65, 0.979); */
+}
+
+.btn{
+  padding: 0.75em;
+}
+
+
+/* .conventionalTable td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 16px;
+  color: #9e9898;
+  height: 50px;
+  background-color: white;
+} */
+
+
+/* option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: beige;
+}
+
+option:before {
+  content: ">";
+  font-size: 20px;
+  display: none;
+  padding-right: 10px;
+  padding-left: 5px;
+  color: rgb(129, 59, 59);
+} */
+
+
+.form-control {
+  text-overflow: ellipsis;
+  white-space: nowrap;  
+  overflow: hidden;
+  color: grey;
+  background-color: transparent;
+
+  outline: none;
+  border: none;
+  border-radius: 0rem;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+  height: 15px;
+  width: 15px;
+  margin: 10px;
+}
+
+#dropdown-item-button{
+  text-align: center;
+  z-index: 0;
+  background-color: transparent;
+  color: var(--clr-font-mid);
+  height: 100%;
+  width: 100%;
+  border: none;
+  text-size-adjust: 14;
+  
+}
+
+.drop-btn{
+  max-width: 200px;
+}
+
+#dropdown-item-button:hover{
+  background-color: transparent;
+  /* color: black; */
+
+
+}
+
+#dropdown-item-button>text{
+  color:'black';
+  font-style: italic;
+
+}
+
+.highlightedRow{
+  background-color: rgba(135,206,235,1);
+}
+
+.selectedRow{
+  background-color: #ffe7d1;
+}

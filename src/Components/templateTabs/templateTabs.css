@@ -1,0 +1,13 @@
+.MuiBox-rootTab>div>div {
+    padding: 0px;
+
+}
+
+.dragtemplate{
+    background-color: #03565aad;
+    /* border: 2px solid var(--clr-accent); */
+}
+
+.react-abc{
+    text-align: start;
+ }

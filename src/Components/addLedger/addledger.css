@@ -1,0 +1,12 @@
+
+.Ledger input{
+    /* background : var(--clr-accent); */
+    border: 1px solid #cacacabf;
+
+} 
+
+.Ledger>input:focus-visible{
+    outline: none;
+    border: 2px solid #03565A;
+    box-shadow: -1px -1px #cacacabf;
+}

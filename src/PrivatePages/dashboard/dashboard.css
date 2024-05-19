@@ -1,0 +1,37 @@
+
+.projectcard{
+    /* cursor: pointer; */
+    background-color: white;
+}
+
+.projectcard::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+.projectcard::-webkit-scrollbar-track {
+box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.projectcard::-webkit-scrollbar-thumb {
+background-color: #03565A;
+border-radius: 20px;
+outline: 1px solid white;
+}
+
+.projectcard:hover{
+    /* background-color: blueviolet; */
+    box-shadow: 2px 3px 15px rgb(139, 139, 139);
+
+}
+.logout_btn:hover{
+    /* box-shadow: 2px 3px 15px rgb(139, 139, 139); */
+    color:white;
+    text-decoration: underline;
+    /* outline: 1px solid white; */
+}
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}

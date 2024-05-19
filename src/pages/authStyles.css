@@ -1,0 +1,339 @@
+:root{
+    --clr-bg:#F0DBC8;
+    --clr-accent:#03565A;
+    --clr-font-mid:#696F79;
+    --clr-font-light:#D0D0D0;
+    --clr-font-semi:#999999;
+    --clr-form:#8692A6;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* typography,sizing,color and spacing */
+
+.conatiner{
+    display: flex;
+    min-width: 1120px;
+}
+.column-1,.column-2{
+    min-height: 105vh;
+    /* flex: 1 1 0; */
+    min-width: 50%;
+}
+.column-1{
+    padding: 75px 130px 0 130px;
+
+}
+.column-2{
+    background-color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-2>img{
+    height: 80%; 
+    width: 80%; 
+    object-fit: contain;
+}
+.pg-title{
+    font-size: 14px;
+    margin: 40px 0 10px 0;
+}
+.pg-title>h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.password-signin{
+    margin-top: 20px;
+}
+
+.emailId,.password-signin{
+    display: flex;
+    position: relative;
+}
+.emailId>h3,.password-signin>h3{
+    font-weight: 500;
+    margin-right: auto;
+    font-size: 15px;
+    color: var(--clr-font-mid);
+    margin-bottom: 0;
+}
+
+
+#error{
+    border: 1.5px solid red;
+    /* background-color: rgba(243, 32, 32, 0.199); */
+
+
+}
+
+input[type=text]:focus{
+    border-radius: 6px;
+    border: 1.3px solid var(--clr-font-mid);
+
+} 
+
+
+input[type=text] {
+    width: 100%;
+    padding: 16px 10px;
+    font-size: 18px;
+    font-family: inherit;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1.3px solid var(--clr-font-mid);
+    border-radius: 6px;
+  }
+input[type=password] {
+    width: 100%;
+    padding: 16px 10px;
+    font-size: 18px;
+    font-family: inherit;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1.3px solid var(--clr-font-mid);
+    border-radius: 6px;
+  }
+
+
+
+/* input[type=submit] {
+    width: 100%;
+    background-color:var(--clr-accent);
+    color: white;
+    padding: 23px 15px;
+    font-size: 17px;
+    font-family: inherit;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+  } */
+.cl-1{
+      margin-right:4% ;
+  }
+  
+.cl-1,.cl-2{
+    width: 48%;
+    position: relative
+}
+.cl-1>h3,.cl-2>h3{
+    font-weight: 500;
+    margin-right: auto;
+    font-size: 15px;
+    color: var(--clr-font-mid);
+}
+/* .cl-1>i,.cl-2>i{
+    color: var(--clr-accent);
+    font-size: 1.5rem; 
+    position: relative;
+    right: -12rem;
+    top: -2.5rem;
+    padding: 1px;
+    
+    cursor: pointer;
+} */
+.cl-1>p,.cl-2>p{
+margin-bottom: 0;
+position: relative;
+top: -20px;
+
+
+}
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.cl-1>i::before,.cl-2>i::before{
+    background-color: white;
+    color: var(--clr-accent);
+    font-size: 1.5rem;
+    position: relative;
+    /* right: -80%;
+    top: -2.5rem; */
+    padding: 3px;
+    cursor: pointer;
+}
+.cl-1>i,.cl-2>i{
+    position: absolute;
+    top:55px;
+    right: 5px ;
+}
+
+
+
+
+.split{
+    margin: 40px 0;
+
+}
+.password{
+    margin-top: 30px;
+}
+
+.split>p {
+
+    color:var(--clr-font-light);
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1.5px solid var(--clr-font-light);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.split>p>span {
+    background: #fff;
+    padding: 0 20px;
+}
+.google-login>button{
+    width: 100%;
+    padding: 20px 15px 5px 15px;
+    margin: 8px 0;
+    border: 1.5px solid #D0D0D0;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+
+}
+.google-login>button>p{
+    margin-left: 25px;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.google-login>button>i{
+    color:var(--clr-accent);
+    font-size: 2rem
+}
+.forgotPassword{
+    margin-top: 10px;
+}
+
+.forgotPassword>p{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color:var(--clr-accent);
+}
+
+.submit{
+    margin-top: 35px;
+}
+.sign-up{
+    margin-top: 40PX;
+}
+.sign-up>a{
+    font-weight: 500;
+    text-decoration: none;
+    text-emphasis: none;
+    text-decoration: none;
+    color: var(--clr-font-mid);
+    
+}
+.sign-up>a:hover{
+    font-weight: 500;
+    text-decoration: none;
+    text-emphasis: none;
+    text-decoration: none;
+    color: var(--clr-font-mid);
+    
+}
+.sign-up>a>span{
+    color: var(--clr-accent);
+}
+.sign-up>a>span:hover{
+    color: var(--clr-accent);
+    text-decoration: underline;
+}
+.terms{
+    margin: 65px auto;
+    align-content: center;
+}
+.terms>p{
+    font-weight: 500;
+    color:var(--clr-font-mid)
+}
+.terms>a{
+    font-weight: 500;
+    margin:0 5px;
+    color: black;
+
+}
+
+/*Modal css*/
+.goback{
+    margin-top: 40px;
+}
+.goback>a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--clr-font-mid);
+    
+}
+.goback>a>span{
+    color: var(--clr-accent);
+}
+
+.title>i{
+    font-size: 4rem;
+}
+
+.modalemailId{
+    margin-top: 75px;
+}
+
+.modalemailId>h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Modalemail>h1{
+    margin-top: 40px;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 700;
+
+}
+.Modalemail>p{
+    color: var(--clr-font-mid);
+    font-weight: 500;
+
+}
+
+.sendLink{
+    margin-top: 20px;
+}
+.password-signin>i::before{
+    background-color: white;
+    color: var(--clr-accent);
+    font-size: 1.5rem;
+    /* position: relative;
+    right: -28rem;
+    top: -2.5rem; */
+    padding: 3px;
+    
+    cursor: pointer;
+}
+.password-signin>i{
+    position: absolute;
+    top: 48px;
+    right: 5px;
+
+}
+
+/*google button*/
+
+.google-button{
+    width: 100%;
+    justify-content: center;
+    height: 65px;
+    font-size: 1.1rem;
+    box-shadow: none;
+    border: 2px solid black;
+}
+

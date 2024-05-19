@@ -1,0 +1,70 @@
+.MuiTab-root{
+    color: inherit;
+    opacity: 0.6;
+    font-size: 3rem;
+
+}
+
+.MuiTab-wrapper{
+    font-size: 1rem;
+}
+.MuiTab-root {
+    padding: 12px 12px;
+    overflow: hidden;
+    position: relative;
+    font-size: 1rem;
+    max-width: 400px;
+    min-width: 200px;
+    box-sizing: border-box;
+    min-height: 57px;
+    text-align: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    white-space: normal;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}
+
+.some{
+    background-color: black;
+}
+
+.makeStyles-tabs-2 div{
+    width: 100%;
+}
+
+/* 
+.MuiTabs-root makeStyles-tabs-2 MuiTabs-vertical{
+    width: 220px;
+} */
+
+
+.n4level3 td{
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 2rem;
+    text-align: end;
+    padding-right:1rem
+}
+
+
+.n4disclosure td{
+    color:black;
+    font-size: 16px;
+    font-weight: 400;
+    border-top: none;
+    height: 33px;
+}
+
+.n4addInput td{
+    font-weight: 600;
+    color:var(--clr-accent);
+    border-top: none;
+
+}
+

@@ -1,0 +1,21 @@
+
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #03565A;
+  outline: 1px solid white;
+}
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled{width: 100% !important;}
+
+
+.disabled-table{
+  background-color: rgba(236, 240, 241, 0.5);
+ pointer-events: none;
+}

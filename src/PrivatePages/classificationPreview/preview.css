@@ -1,0 +1,50 @@
+
+#gridScroll::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+#gridScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+ 
+#gridScroll::-webkit-scrollbar-thumb {
+  background-color: #03565abb ;
+  border-radius: 10px;
+}
+
+
+#groupingScreen::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+#groupingScreen::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+ 
+#groupingScreen::-webkit-scrollbar-thumb {
+  background-color: #03565abb;
+  border-radius: 10px;
+}
+
+.classificationTable table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+
+
+
+.classificationTable th{
+border: 1px solid #dddddd;
+text-align: center;
+padding: 10px;
+background-color: #cecece;
+color: rgb(70, 70, 71);
+font-size: 13px;
+height: 50px;
+position: sticky;
+top:1px
+}

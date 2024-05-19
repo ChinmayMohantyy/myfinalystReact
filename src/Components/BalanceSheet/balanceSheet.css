@@ -1,0 +1,84 @@
+.tableSheet thead{
+    height:90px;
+    background: #F8FAFB;
+
+}
+
+.tableSheet th{
+    border: 1.5px solid #D9D9D9; 
+    background: #F8FAFB;    
+    border-top: none;
+    border-bottom: none;
+    /* font-family: Inter; */
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+}
+
+
+ableSheet th:nth-child(1){
+    text-align: left;
+    padding-left: 3%;
+}
+    
+.tableSheet th:last-child{
+    text-align: left;
+    padding-left: 3%;
+}
+    
+
+.tableSheet td{
+    border: 1.5px solid #dddddd; 
+    border-top: none;
+    border-bottom: none;   
+    color: black;
+}
+.tableSheet tr:hover{
+    background-color: white;
+}
+.tableSheet td:nth-child(1){
+    text-align: left;
+    padding-left: 3%;
+    cursor: pointer;
+}
+.tableSheet td:nth-child(3){
+    text-align: right;
+    padding-right: 2%;
+    padding-left: 1%;
+}
+.tableSheet td:nth-child(4){
+    text-align: right;
+    padding-right: 2%;
+    padding-left: 1%;
+}
+.tableSheet td:last-child{
+    text-align: right;
+    padding-left: 1%;
+}
+
+.notes_numbering{
+    color:var(--clr-accent);
+    line-height: 20px;
+    font-size:16px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+
+.notes_numbering:hover{
+    color:var(--clr-accent);
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.ck.ck-editor:{
+    position: fixed;
+}
